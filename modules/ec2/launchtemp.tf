@@ -2,7 +2,7 @@ resource "aws_launch_template" "frontend" {
   name_prefix   = "frontend"
   image_id      = "ami-0ebfd941bbafe70c6"
   instance_type = var.instance_type
-  key_name = "efantus_key"
+  key_name = "terraform_key"
 
 
   network_interfaces {

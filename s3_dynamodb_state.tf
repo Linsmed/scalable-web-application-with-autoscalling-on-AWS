@@ -1,6 +1,6 @@
 #step 1 : create s3 bucket
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "dev-state-file-new-day26"
+  bucket = "dev-state-file-ejibode-ibraheem"
 
     #prevent accidental deletion of s3
   lifecycle {
